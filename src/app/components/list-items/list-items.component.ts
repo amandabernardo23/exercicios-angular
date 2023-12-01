@@ -8,5 +8,5 @@ import { CommonModule } from '@angular/common';
   templateUrl: './list-items.component.html'
 })
 export class ListItemsComponent {
-
+  materias: string[] = ['Front end', 'Back end', 'Maturidade', 'Mobile', 'Cloud'];
 }
