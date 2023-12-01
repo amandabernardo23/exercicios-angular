@@ -10,9 +10,9 @@ import { ControleAcessoComponent } from "./components/controle-acesso/controle-a
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
-    styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, AppComponentPaiComponent, ContadorComponentComponent, ListItemsComponent, ControleAcessoComponent]
+    imports: [CommonModule, RouterOutlet, AppComponentPaiComponent, ContadorComponentComponent, ListItemsComponent]
 })
+
 export class AppComponent {
   title = 'exercicios-angular';
 }
