@@ -10,7 +10,7 @@ import { ControleAcessoComponent } from "./components/controle-acesso/controle-a
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
-    imports: [CommonModule, RouterOutlet, AppComponentPaiComponent, ContadorComponentComponent, ListItemsComponent]
+    imports: [CommonModule, RouterOutlet, AppComponentPaiComponent, ContadorComponentComponent, ListItemsComponent, ControleAcessoComponent]
 })
 
 export class AppComponent {
