@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './contador-component.component.html'
 })
 export class ContadorComponentComponent {
-  private valor: number = 0;
+  valor: number = 0;
 
   aumentar() {
     this.valor++;
