@@ -1,0 +1,20 @@
+<div>
+    <!-- <input type="text" [(ngModel)]="materia" placeholder="Nova Tarefa (máx. 100 caracteres)" maxlength="100"> -->
+    <button (click)="adicionarItem()">Adicionar</button>
+  </div>
+  
+  <ul>
+    <li *ngFor="let materia of materias; let i = index" [ngClass]="{'concluido': materia.aprovado}">
+      <span>{{ materia.materia }}</span>
+      <button (click)="concluirTarefa(i)">Check ✅</button>
+      <button (click)="removerItem(i)">Delete 🗑️</button>
+    </li>
+  </ul>
+
+  <style>
+    .concluido {
+        background-color: yellow;
+    }
+  </style>
+  
+  

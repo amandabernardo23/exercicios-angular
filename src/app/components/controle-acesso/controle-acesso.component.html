@@ -1,0 +1,9 @@
+<div>
+    <button (click)="definirPermissao('administrador')">Administrador</button>
+    <button (click)="definirPermissao('colaborador')">Colaborador</button>
+    <button (click)="definirPermissao('usuario')">Usuário</button>
+  </div>
+  
+  <div *ngIf="permissao">
+    <p>{{ permissao }}</p>
+  </div>
