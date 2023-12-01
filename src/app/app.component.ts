@@ -9,9 +9,9 @@ import { ListItemsComponent } from "./components/list-items/list-items.component
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
-    styleUrl: './app.component.css',
     imports: [CommonModule, RouterOutlet, AppComponentPaiComponent, ContadorComponentComponent, ListItemsComponent]
 })
+
 export class AppComponent {
   title = 'exercicios-angular';
 }
