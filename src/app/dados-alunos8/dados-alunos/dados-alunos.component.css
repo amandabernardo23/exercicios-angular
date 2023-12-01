@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+
+body {
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.555)
+}
+
+table {
+  justify-items: center;
+  height: 5rem;;
+  border-color: rgb(13, 13, 13);
+  min-width: 80%;
+  min-height: 5%;
+  line-height: 100%;
+}
+
+td {
+ text-align: center;
+}
+
+div {
+  display: ;
+  color: rgb(0, 0, 0);
+  height: 0%;
+}

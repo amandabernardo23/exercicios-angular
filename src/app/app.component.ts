@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AppComponentPaiComponent } from "./components/app-component-pai/app-component-pai.component";
+import {}
 
 @Component({
     selector: 'app-root',
@@ -13,3 +14,4 @@ import { AppComponentPaiComponent } from "./components/app-component-pai/app-com
 export class AppComponent {
   title = 'exercicios-angular';
 }
+

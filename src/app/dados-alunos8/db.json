@@ -1,0 +1,15 @@
+  [
+  {
+    "matricula": "72364",
+    "nome": "Camila Barros",
+    "idade": 22,
+    "curso": "Direito",
+    "rendimentoEscolar": {
+      "Direito Civil": 8.5,
+      "Direito Constitucional": 9.2,
+      "Introdução ao Direito": 10
+    }
+  }
+]
+
+
